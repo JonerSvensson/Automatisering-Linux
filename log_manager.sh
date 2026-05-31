@@ -2,7 +2,7 @@
 
 # Kontrollera och eller skapa logs_backup
 
-if [ ! -d "logs_backup"]; then
+if [ ! -d "logs_backup" ]; then
     mkdir logs_backup
     echo "Skapat mappen logs_backup"
 else
