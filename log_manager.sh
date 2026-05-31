@@ -9,6 +9,10 @@ else
     echo "Mappen logs_backup finns redan"
 fi
 
+# Ta bort gamla loggfiler
+echo "Tar bort gamla loggfiler"
+rm *.log
+
 # Skapa 5 loggfiler
 echo "Skapar 5 loggfiler"
 for i in {1..5}; do
